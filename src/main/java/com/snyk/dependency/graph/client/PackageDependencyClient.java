@@ -6,4 +6,5 @@ import java.util.List;
 
 public interface PackageDependencyClient {
     List<Package> getPackageDependencies(final Package pkg);
+    void setDependency(final Dependency dep);
 }
